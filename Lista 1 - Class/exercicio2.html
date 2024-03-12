@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+</head>
+<body>
+    <script>
+        class Casa {
+                constructor (endereco,numeroQuartos,area) {
+                    this.endereco = endereco;
+                    this.numeroQuartos = numeroQuartos;
+                    this.area = area;
+                }
+        
+            informacoesCasa() {
+                return(`Informações da Casa ${this.endereco, this.numeroQuartos, this.area}`);
+            }
+        }
+        let Casa1 = new Casa("Rua longe de casa 321", "3 Quartos", "1000m²");
+        console.log(Casa1);
+        console.log(`${Casa1.informacoesCasa()}`);
+    </script>
+    
+</body>
+</html>
